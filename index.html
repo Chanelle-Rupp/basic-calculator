@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table border="0">
+        <tr>
+            <td align="right" colspan="5"><input type="text" id="user-input1"> </td>
+        </tr>
+        <tr>
+            <td align="right" colspan="5"><input type="text" id="user-input2"> </td>
+        </tr>
+        <tr>
+            <td colspan="5">Result <input type="text" id="result"></td>
+        </tr>
+        <tr>
+            <td><input class="input-btns" type="submit" onClick="adding()" value="+"></td>
+            <td><input class="input-btns" type="submit" onClick="subtraction()" value="-"></td>
+            <td><input class="input-btns" type="submit" onClick="multiplication()" value="*"></td>
+            <td><input class="input-btns" type="submit" onClick="division()" value="/"></td>
+            <td><input class="input-btns" type="submit" onClick="remainder()" value="%"></td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+
+</html>
